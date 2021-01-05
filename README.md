@@ -7,3 +7,5 @@ Tecnologias utilizadas:
 - Angular 11
 - TypeScript
 - JavaScript
+
+Link do portfólio: https://william-cesar.netlify.app/
