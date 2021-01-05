@@ -1,0 +1,20 @@
+<section class="section-skills">
+    <div class="container">
+        <div class="row">
+            <h2 class="section-skills__title">Habilidades e Qualificações</h2>
+
+            <div class="section-skills__content">
+                <ng-container *ngFor="let skill of skills">
+                    <div class="section-skills__content-skill">
+                        <img [src]="skill?.src" [alt]="skill?.alt" class="section-skills__content-skill-img">
+                        <p>{{ skill?.desc }}</p>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-skills__arrow" (click)="sharedService.scrollTo('about-me')">
+        <img src="../../../../assets/imgs/png/arrow-down.png" width="100%" alt="arrow-down.png">
+    </div>
+</section>
