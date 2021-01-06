@@ -6,13 +6,15 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
 import { SharedService } from './shared.service';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     PrimarySectionComponent,
     AboutMeComponent,
     SkillsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule
@@ -21,7 +23,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     PrimarySectionComponent,
     AboutMeComponent,
     SkillsComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    FooterComponent
   ],
   providers: [
     SharedService
