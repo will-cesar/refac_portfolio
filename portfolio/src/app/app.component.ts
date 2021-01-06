@@ -23,8 +23,12 @@ export class AppComponent implements OnInit {
       { name: 'author', content: 'William Cesar' },
       { name: 'creator', content: 'William Cesar' },
       { name: 'date', content: '01-2021', scheme: 'MM-YYYY' },
-      { name: 'description', content: 'Site Portfólio - William Cesar - Desenvolvedor Front-End' },
+      { name: 'description', content: 'William Cesar - Desenvolvedor Front-End' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { property: 'og:title', content: 'William Cesar - Desenvolvedor Front-End' },
+      { property: 'og:image', content: '../assets/imgs/jpeg/bg-pc.jpeg' },
+      { property: 'og:description', content: 'William Cesar - Desenvolvedor Front-End - Portfólio' },
+      { property: 'og:url', content: 'https://refac-portfolio.netlify.app/' },
       { httpEquiv: 'content-language', content: 'pt-br' },
       { charset: 'UTF-8' },
     ]);
