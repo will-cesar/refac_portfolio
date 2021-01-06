@@ -4,6 +4,7 @@ Tecnologias utilizadas:
 - HTML5
 - CSS
 - SCSS/SASS
+- Bootstrap 5
 - Angular 11
 - TypeScript
 - JavaScript
