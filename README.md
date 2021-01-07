@@ -9,4 +9,4 @@ Tecnologias utilizadas:
 - TypeScript
 - JavaScript
 
-Link do portfólio: https://william-cesar.netlify.app/
+Link do portfólio: http://www.william-cesar.com.br/
