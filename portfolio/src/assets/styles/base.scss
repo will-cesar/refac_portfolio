@@ -1,5 +1,7 @@
+@import "../styles/variables.scss";
+
 h1, h2, h3, h4, h5, h6 {
-    color: #000;
+    color: $primary-black;
     font-family: 'Roboto Slab', serif;
 }
 
@@ -10,7 +12,7 @@ h2 {
 }
 
 p, a, button {
-    color: #000;
+    color: $primary-black;
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;

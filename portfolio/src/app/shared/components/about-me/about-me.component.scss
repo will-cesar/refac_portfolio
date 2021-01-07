@@ -1,12 +1,14 @@
+@import "../../../../assets/styles/variables.scss";
+
 .section-about {
     position: relative;
     min-height: 35vh;
     display: flex;
     align-items: center;
-    background-color: #323232;
+    background-color: $second-black;
 
     &__title {
-        color: #e5e5e5;
+        color: $second-white;
         margin: 0px 0 30px;
 
         @media (max-width: 767.98px) {
@@ -15,7 +17,7 @@
     }
 
     &__subtitle {
-        color: #e5e5e5;
+        color: $second-white;
         text-align: center;
         margin-bottom: 45px;
 
@@ -44,9 +46,9 @@
         text-align: center;
         border-radius: 0;
         border: 3px solid;
-        border-color: #e5e5e5;
-        background-color: #323232;
-        color: #fff;
+        border-color: $second-white;
+        background-color: $second-black;
+        color: $second-white;
         max-width: 200px;
         margin: 0 auto;
         display: block;
@@ -54,8 +56,8 @@
         transition: .3s;
 
         &:hover {            
-            background-color: #000;
-            border-color: #4c4c4c;
+            background-color: $primary-black;
+            border-color: $third-black;
         }
 
         @media (max-width: 767.98px) {
@@ -68,7 +70,7 @@
         transition: .3s;
 
         path {
-            fill: #e5e5e5;
+            fill: $second-white;
         }
     }
 }
